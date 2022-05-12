@@ -37,9 +37,18 @@ def get_phone_numbers(text_from_file):
             file.write(number)
             file.write('\n')
 
-def get_emails():
-    pass
+def get_emails(text_from_file):
+    
+    pattern = r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}'
 
+    emails = re.findall(pattern, text_from_file)
+    
+    with open('existing-contacts.txt', 'w') as file:
+        for number in emails:
+            file.write(number)
+            file.write('\n')
+    
+get_emails(text_from_file)
 get_phone_numbers(text_from_file)
 
 

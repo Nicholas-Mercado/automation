@@ -2,7 +2,7 @@
 
 **Project**: Automation
 
-**Author**: Nicholas
+**Author**: Nicholas Mercado
 
 ## Links and Resources
 

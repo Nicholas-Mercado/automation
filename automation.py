@@ -32,7 +32,10 @@ def get_phone_numbers(text_from_file):
     
     final_list = list(dict.fromkeys( List_with_duplicates))
     
-    print(final_list)
+    with open('phone_numbers.txt', 'w') as file:
+        for number in final_list:
+            file.write(number)
+            file.write('\n')
 
 def get_emails():
     pass

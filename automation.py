@@ -6,13 +6,18 @@ with open("potential-contacts.txt") as f:
     text_from_file = f.read()
 
 def add_dash(numbers):
+    """
+    Takes in a list of ten numbers and return a list with xxx-xxx-xxxx dash format
+    """
     final_num = []
     for num in numbers:
         final_num.append(num[:3] + '-' + num[3:6] + '-' + num[6:])
     return final_num    
 
 def strip_numbers(numbers): 
-    
+    """
+    Takes in a list and strips all characters but numbers 1-9
+    """
     output = []
     
     for number in numbers:

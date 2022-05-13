@@ -1,24 +1,25 @@
-# LAB - Class 19 -
+# LAB - Class 19
 
 **Project**: Automation
 
-**Author**: Nicholas
+**Author**: Nicholas Mercado
 
 ## Links and Resources
 
 [regex](https://regex101.com/)
 
+[check email address regex](https://www.geeksforgeeks.org/check-if-email-address-valid-or-not-in-python/)
+
+code help from:
+
+- Benjamin Carter
+- Eden Brekke
+- Jordan Fleming
+  
 ## Setup
 
-.env requirements (where applicable)
-i.e.
+pip install requirements.txt
 
 ### How to initialize
 
 python3 automation.py
-
-## Tests
-
-<!-- How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc -->
